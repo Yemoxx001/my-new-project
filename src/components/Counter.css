@@ -1,0 +1,53 @@
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+button.start {
+    background-color: purple;
+
+}
+
+button.stop {
+    background-color: #dc3545;
+}
+
+button.reset {
+    background-color: #ffc107;
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}

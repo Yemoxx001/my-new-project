@@ -1,0 +1,25 @@
+.profile-card {
+    width: 300px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+.profile-image {
+    width: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+} 
+
+
+button:hover {
+    background: #0056b3;
+}
