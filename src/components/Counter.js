@@ -30,8 +30,7 @@ function Counter() {
             <div className="buttons">
                 <button className="start" onClick={start}>Start</button>
                 <button className="stop" onClick={stop}>Stop</button>
-                <button className="reset" onClick={reset}>Reset</button>
-                
+                <button className="reset" onClick={reset}>Reset</button>                
             </div>
         </div>
     );

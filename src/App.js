@@ -5,15 +5,16 @@ import ProfileCard from "./components/ProfileCard";
 function App() {
   return (
     <div>
-      {/• Counter App •/}
+      {/* Counter App */}
       <Counter />
 
-      {/• Profile Card •/}
+      {/* Profile Card */}
       <ProfileCard
-      name="Samuel Taiwo"
-      title="Frontend Dev"
-      image="https://via.placeholder.com/100"
-      description="I know one day I will be Great, Learning React, and building cool projects."/>
+        name="Samuel Taiwo"
+        title="Frontend Dev"
+        image="https://via.placeholder.com/100"
+        description="I know one day I will be Great, Learning React, and building cool projects."
+      />
     </div>
   );
 }
